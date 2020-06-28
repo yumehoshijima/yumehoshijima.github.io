@@ -1,0 +1,238 @@
+/* Yeah, I wrote this CSS. I used to be a script kiddie, but I chose a different career path :-P */
+
+/* set font sizes, all others are relative */
+
+html {
+font-size:16px;
+}
+
+/* body background off-white, starting four-color scheme F9F7F7
+DBE2EF
+3F72AF
+112D4E */
+
+body {
+	background-color:#F9F7F7;
+}
+
+/* Main outer div */
+
+div#main-outer {
+  display: block;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+
+
+/* Main middle div */
+
+div#main-middle {
+    display: block;
+    width: 90%;
+    margin: 1rem auto;
+    max-width: 900px;
+}
+
+/*Header div */
+
+div#main-centered-head {
+text-align:center;
+}
+
+/* Div for body and footer*/
+
+div.bodycontainer {
+	padding:0 4%;
+	font-family:Georgia, Times, "Times New Roman", serif;
+}
+
+div.footercontainer {
+	text-align:center;
+}
+
+div.bodycontainer ul li {
+	color:#112D4E;
+}
+
+/* Define headings down to fourth level, with normal weight options */
+
+h1 {
+display:inline;
+color: #112D4E;
+font-weight: 700;
+font-style: sans-serif;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 2.5rem;
+font-variant: small-caps;
+}
+
+h1.normalweight {
+font-weight:400;
+}
+
+h2 {
+display:block;
+color: #112D4E;
+font-weight: 700;
+font-style: sans-serif;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 2rem;
+}
+
+h2.normalweight {
+font-weight:400;
+}
+
+
+h3 {
+display:block;
+color: #112D4E;
+font-weight: 700;
+font-style: sans-serif;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.5rem;
+}
+
+h3.normalweight {
+font-weight:400;
+}
+
+h4 {
+display:block;
+color: #112D4E;
+font-weight: 700;
+font-style: sans-serif;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.25rem;
+}
+
+h4.normalweight {
+font-weight:400;
+}
+
+/* for homepage style h4 */
+
+h4.paragraph {
+font-weight:400;
+text-align:justify;
+}
+
+/* serif for normal font--because Georgia is pretty */
+
+p {
+color: #112D4E;
+font-size: 1rem;
+font-family: Georgia, Times, "Times New Roman", serif;;
+}
+
+/* contact button for contact page */
+
+#contactbutton {
+font-size:1rem;
+color:#F9F7F7;
+background-color: #3F72AF;
+border: none;
+padding: 0.75rem 1.25rem;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 1rem;
+font-family: Arial, Helvetica, sans-serif;
+margin: 0.25rem 0.25rem;
+cursor: pointer;
+border-radius:0.5rem;
+}
+
+/* copyright stuff at bottom */
+
+#copyright {
+border-top: 1px solid #112D4E;
+padding-top: 0.4375rem;
+font-size:0.875rem;
+color: #112D4E;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: -0.5 em;
+}
+
+/* github credit and link at bottom */
+
+#githubcredit {
+font-size:0.875rem;
+color: #112D4E;
+font-family: Arial, Helvetica, sans-serif;
+line-height:0.5rem;
+}
+
+#githublink {
+font-size:0.875rem;
+color: #112D4E;
+font-family: Arial, Helvetica, sans-serif;
+line-height:0.5rem;
+}
+
+/* Menu bar styling */
+
+ul.topmenu {
+    list-style-type: none;
+    margin: 1rem 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3F72AF;
+}
+
+ul.topmenu li {
+	display: inline-block;
+	text-align:center;
+	float:left;
+	width:25%;
+}
+
+ul.topmenu li a {
+    display: block;
+    color: #F9F7F7;
+    text-align: center;
+    padding: 1rem 0;
+	font-style: sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	text-decoration:none;
+}
+
+/* Change the link color to black on hover */
+ul.topmenu li a:hover {
+    background-color: #20446E;
+}
+
+/* active element color, since no JQuery, each link has to be manually set to this class */
+
+ul.topmenu li a.currentlink {
+    background-color: #112D4E;
+}
+
+/* responsive top menu collapses at 600px, with some margin and padding reduced for mobile optimization */
+
+@media screen and (max-width: 600px){
+    ul.topmenu li {
+	width:100%;
+	}
+	
+	ul.topmenu li.notlast {
+	border-bottom:1px solid #F9F7F7;
+	}
+	
+	ul.topmenu li a {
+	padding: 0.75rem 0;
+	}
+	
+	div#main-middle {
+    display: block;
+    width: 98%;
+    margin: 1rem 1%;
+	}
+	
+	div.bodycontainer {
+	padding:0 1%;
+	}
+}
