@@ -1,4 +1,3 @@
-/* Yeah, I wrote this CSS. I used to be a script kiddie, but I chose a different career path :-P */
 
 /* set font sizes, all others are relative */
 
@@ -119,12 +118,20 @@ font-weight:400;
 text-align:justify;
 }
 
-/* serif for normal font--because Georgia is pretty */
+/* serif for normal font -GA */
 
 p {
 color: #112D4E;
 font-size: 1rem;
 font-family: Georgia, Times, "Times New Roman", serif;;
+}
+
+/* home-headshot */
+img.home-headshot{
+    float:left;
+    width:17rem;
+    padding-right:1rem;
+    padding-bottom:0.3rem;
 }
 
 /* contact button for contact page */
@@ -187,6 +194,8 @@ ul.topmenu li {
 	text-align:center;
 	float:left;
 	width:25%;
+    /* box-shadow creates inset white border */
+    box-shadow: -1px white inset;
 }
 
 ul.topmenu li a {
@@ -211,12 +220,21 @@ ul.topmenu li a.currentlink {
     background-color: #112D4E;
 }
 
+
 /* responsive top menu collapses at 600px, with some margin and padding reduced for mobile optimization */
 
 @media screen and (max-width: 600px){
     ul.topmenu li {
 	width:100%;
 	}
+    
+    html {
+        font-size:14px;
+    }
+    
+    img.home-headshot {
+        width:10em;
+    }
 	
 	ul.topmenu li.notlast {
 	border-bottom:1px solid #F9F7F7;
