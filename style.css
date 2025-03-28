@@ -1,14 +1,5 @@
 /*SITEWIDE FONT*/
 
-/* font import - Source Serif 4 */
-
-.source-serif-4-<uniquifier> {
-  font-family: "Source Serif 4", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
 /* set font sizes, all others are relative */
 
 html {
