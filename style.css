@@ -190,6 +190,12 @@ cursor: pointer;
 border-radius:0.5rem;
 }
 
+/* homepage name font change */
+
+h1.name {
+	font-family: "Source Serif 4", Georgia, Times, "Times New Roman", serif;
+}
+
 /*FOOTER*/
 
 /* copyright stuff at bottom */
