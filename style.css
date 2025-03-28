@@ -1,3 +1,5 @@
+/*SITEWIDE FONT*/
+
 /* font import - Source Serif 4 */
 
 <style>
@@ -10,6 +12,43 @@ html {
 font-size:16px;
 }
 
+
+/* RESPONSIVE WEBSITE CODE */
+
+@media screen and (max-width: 600px){
+    ul.topmenu li {
+	width:100%;
+	}
+    
+    html {
+        font-size:14px;
+    }
+    
+    img.home-headshot {
+        width:10em;
+    }
+	
+	ul.topmenu li.notlast {
+	border-bottom:1px solid #F9F7F7;
+	}
+	
+	ul.topmenu li a {
+	padding: 0.75rem 0;
+	}
+	
+	div#main-middle {
+    display: block;
+    width: 98%;
+    margin: 1rem 1%;
+	}
+	
+	div.bodycontainer {
+	padding:0 1%;
+	}
+}
+
+/*BACKGROUND*/
+
 /* body background off-white, starting four-color scheme F9F7F7
 DBE2EF
 3F72AF
@@ -19,6 +58,8 @@ body {
 	background-color:#F9F7F7;
 }
 
+/*SITEWIDE CONTAINERS*/
+
 /* Main outer div */
 
 div#main-outer {
@@ -27,8 +68,6 @@ div#main-outer {
   height: 100%;
   vertical-align: middle;
 }
-
-
 
 /* Main middle div */
 
@@ -56,9 +95,7 @@ div.footercontainer {
 	text-align:center;
 }
 
-div.bodycontainer ul li {
-	color:#112D4E;
-}
+/* HEADINGS*/
 
 /* Define headings down to fourth level, with normal weight options */
 
@@ -116,21 +153,16 @@ h4.normalweight {
 font-weight:400;
 }
 
-/* for homepage style h4 */
-
-h4.paragraph {
-font-weight:400;
-text-align:justify;
-}
-
-/* serif for normal font */
+/*PARAGRAPH*/
 
 p {
 color: #112D4E;
 font-size: 1.25rem;
 font-style: serif;
-font-family: "Source Serif 4", Georgia, Times, "Times New Roman", serif;;
+font-family: "Source Serif 4", Georgia, Times, "Times New Roman", serif;
 }
+
+/*HOMEPAGE ELEMENTS*/
 
 /* home-headshot */
 img.home-headshot{
@@ -158,6 +190,8 @@ cursor: pointer;
 border-radius:0.5rem;
 }
 
+/*FOOTER*/
+
 /* copyright stuff at bottom */
 
 #copyright {
@@ -165,7 +199,7 @@ border-top: 1px solid #112D4E;
 padding-top: 0.4375rem;
 font-size:0.875rem;
 color: #112D4E;
-font-family: Arial, Helvetica, sans-serif;
+font-family: "Source Serif 4", Georgia, Times, "Times New Roman", serif;
 margin-bottom: -0.5 em;
 }
 
@@ -174,19 +208,12 @@ margin-bottom: -0.5 em;
 #githubcredit {
 font-size:0.875rem;
 color: #112D4E;
-font-family: Arial, Helvetica, sans-serif;
+font-family: "Source Serif 4", Georgia, Times, "Times New Roman", serif;
 line-height:1.1rem;
 }
 
-#githublink {
-font-size:0.875rem;
-color: #112D4E;
-font-family: Arial, Helvetica, sans-serif;
-line-height:0.5rem;
-}
-
-/* Menu bar styling */
-
+/* MENU BAR STYLING */
+/*
 ul.topmenu {
     list-style-type: none;
     margin: 1rem 0;
@@ -225,38 +252,4 @@ ul.topmenu li a:hover {
 ul.topmenu li a.currentlink {
     background-color: #112D4E;
 }
-
-
-/* responsive top menu collapses at 600px, with some margin and padding reduced for mobile optimization */
-
-@media screen and (max-width: 600px){
-    ul.topmenu li {
-	width:100%;
-	}
-    
-    html {
-        font-size:14px;
-    }
-    
-    img.home-headshot {
-        width:10em;
-    }
-	
-	ul.topmenu li.notlast {
-	border-bottom:1px solid #F9F7F7;
-	}
-	
-	ul.topmenu li a {
-	padding: 0.75rem 0;
-	}
-	
-	div#main-middle {
-    display: block;
-    width: 98%;
-    margin: 1rem 1%;
-	}
-	
-	div.bodycontainer {
-	padding:0 1%;
-	}
-}
+*/
