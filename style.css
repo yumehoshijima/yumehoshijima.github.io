@@ -82,7 +82,7 @@ text-align:center;
 
 div.bodycontainer {
 	padding:0 4%;
-	font-family:"Spectral", Georgia, Times, "Times New Roman", serif;
+	font-family:"Crimson Text", Georgia, Times, "Times New Roman", serif;
 }
 
 div.footercontainer {
@@ -152,7 +152,7 @@ p {
 color: #112D4E;
 font-size: 1.25rem;
 font-style: serif;
-font-family: "Spectral", Georgia, Times, "Times New Roman", serif;
+font-family: "Crimson Text", Georgia, Times, "Times New Roman", serif;
 }
 
 /*HOMEPAGE ELEMENTS*/
@@ -186,7 +186,7 @@ border-radius:0.5rem;
 /* homepage name font change */
 
 h1#name {
-	font-family: "Spectral", Georgia, Times, "Times New Roman", serif;
+	font-family: "Crimson Text", Georgia, Times, "Times New Roman", serif;
 	font-weight:500;
 }
 
@@ -199,7 +199,7 @@ border-top: 1px solid #112D4E;
 padding-top: 0.4375rem;
 font-size:0.875rem;
 color: #112D4E;
-font-family: "Spectral", Georgia, Times, "Times New Roman", serif;
+font-family: "Crimson Text", Georgia, Times, "Times New Roman", serif;
 margin-bottom: -0.5 em;
 }
 
@@ -208,7 +208,7 @@ margin-bottom: -0.5 em;
 #githubcredit {
 font-size:0.875rem;
 color: #112D4E;
-font-family: "Spectral", Georgia, Times, "Times New Roman", serif;
+font-family: "Crimson Text", Georgia, Times, "Times New Roman", serif;
 line-height:1.1rem;
 }
 
