@@ -187,6 +187,7 @@ border-radius:0.5rem;
 
 h1#name {
 	font-family: "Spectral", Georgia, Times, "Times New Roman", serif;
+	font-weight:500;
 }
 
 /*FOOTER*/
