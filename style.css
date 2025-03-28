@@ -197,7 +197,7 @@ h1#name {
 #copyright {
 border-top: 1px solid #112D4E;
 padding-top: 0.4375rem;
-font-size:0.875rem;
+font-size:1rem;
 color: #112D4E;
 font-family: "Crimson Text", Georgia, Times, "Times New Roman", serif;
 margin-bottom: -0.5 em;
@@ -206,7 +206,7 @@ margin-bottom: -0.5 em;
 /* github credit and link at bottom */
 
 #githubcredit {
-font-size:0.875rem;
+font-size:1rem;
 color: #112D4E;
 font-family: "Crimson Text", Georgia, Times, "Times New Roman", serif;
 line-height:1.1rem;
