@@ -160,7 +160,7 @@ font-family: "Crimson Text", Georgia, Times, "Times New Roman", serif;
 /* home-headshot */
 img.home-headshot{
     float:left;
-    width:15rem;
+    max-width:14rem;
     padding-right:1rem;
     padding-bottom:0.3rem;
 }
